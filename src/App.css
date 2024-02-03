@@ -1,0 +1,49 @@
+.valentine-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Arial", sans-serif;
+  }
+  
+  img {
+    max-width: auto;
+    height: 200px;
+  }
+  
+  .text {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .yesButton,
+  .noButton {
+    border: none;
+    border-radius: 10px; /* Adjust the radius for rounded corners */
+    padding: 15px 25px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .yesButton {
+    background-color: #4caf50; /* Green color */
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .noButton {
+    background-color: #ff3333; /* Red color */
+    color: white;
+  }
+  
+  .text {
+    font-size: 1.8em; /* Adjust the font size as needed */
+    margin-top: 15px;
+    font-weight: bold; /* Optional: Add bold font weight for emphasis */
+  }
+  
